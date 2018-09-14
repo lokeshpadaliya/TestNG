@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MercuryFlight]">
+  <test name="MercuryTests(failed)">
+    <classes>
+      <class name="TestCases.LoginTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="LogOut"/>
+          <include name="Login"/>
+          <include name="FindFlight"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- TestCases.LoginTest -->
+    </classes>
+  </test> <!-- MercuryTests(failed) -->
+</suite> <!-- Failed suite [MercuryFlight] -->

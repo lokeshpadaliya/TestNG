@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MercuryFlight">
+  <test name="MercuryTests" >
+    <classes>
+      <class name="TestCases.LoginTest"/>
+    </classes>
+ </test>
+
+  <test name="MercuryTests2" >
+    <classes>
+      <class name="TestCases.LoginTest"/>
+    </classes>
+ </test>
+</suite>
